@@ -1,0 +1,30 @@
+name: happ_clone
+description: Minimal VPN/Proxy client (VLESS/VMess/Trojan/Shadowsocks/Hysteria2) powered by Xray.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  dio: ^5.4.3
+  uuid: ^4.4.0
+  mobile_scanner: ^5.1.1
+  material_symbols_icons: ^4.2758.0
+  # Xray core – enable when integrating the real engine:
+  # flutter_vless: ^0.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
